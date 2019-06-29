@@ -1,0 +1,57 @@
+{
+  "username" : "学号",
+  "password" : "密码",
+  "timeout_repeat" : 3,
+  "kind_name" : "公共基础课",
+  "kinds_attribute": [
+    {
+      "name": "公共基础课",
+      "current_course": true,
+      "across_grade": true,
+      "cross_functionally": true,
+      "public_course": false
+    },
+    {
+      "name": "通选课",
+      "current_course": false,
+      "across_grade": false,
+      "cross_functionally": false,
+      "public_course": true
+    },
+    {
+      "name": "专业课",
+      "current_course": true,
+      "across_grade": true,
+      "cross_functionally": true,
+      "public_course": false
+    },
+    {
+      "name": "思政课",
+      "current_course": false,
+      "across_grade": false,
+      "cross_functionally": false,
+      "public_course": true
+    }
+  ],
+  "class_post_api": {
+    "current_course": "http://e.zhbit.com/jsxsd/xsxkkc/xsxkBxqjhxk",
+    "across_grade": "http://e.zhbit.com/jsxsd/xsxkkc/xsxkKnjxk",
+    "cross_functionally": "http://e.zhbit.com/jsxsd/xsxkkc/xsxkFawxk",
+    "public_course": "http://e.zhbit.com/jsxsd/xsxkkc/xsxkGgxxkxk"
+  },
+  "host": "e.zhbit.com",
+  "system_url": {
+    "login_api": "http://e.zhbit.com/jsxsd/xk/LoginToXk",
+    "login_website_url": "http://e.zhbit.com/jsxsd/",
+    "post_class_referer": "http://e.zhbit.com/jsxsd/xsxkkc/comeInKnjxk",
+    "portal_url": "http://e.zhbit.com/jsxsd/framework/xsMain.jsp",
+    "base_referer": "http://e.zhbit.com/jsxsd/xsxkkc/comeIn"
+  },
+  "database": {
+    "host": "192.16",
+    "port": 3306,
+    "db_name": "",
+    "username": "",
+    "password": ""
+  }
+}
